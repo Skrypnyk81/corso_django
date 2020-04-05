@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Laboratorio HTML</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Benvenuto nel Nostro Sito!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in c
+            ulpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h2>Crea un Nuovo Account</h2>
+        <form action="" method="get">
+            <div >
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="cognome"placeholder="Cognome" required>
+            </div>
+            <div >
+                <input type="email" name="mail" placeholder="Il tuo indirizzo e-mail" required>
+            </div>
+            <div >
+                <input type="password" name="psw"placeholder="Nuova Password" required>
+            </div>
+
+            <label for="woman">Donna</label>
+            <input id="woman" type="radio" name="genere" value="Donna">
+            <label for="man">Uomo</label>
+            <input id="man" type="radio" name="genere" value="Uomo">
+
+            <br>
+            <label for="knowlage">Come hai conosciuto il sito?</label>
+            <select id="knowlage">
+                <option value="Consigliato da amico">Consigliato da amico</option>
+                <option value="Giornale">Giornale</option>
+                <option value="Televisione">Televisione</option>
+            </select>
+            <br>
+            <h3>Parlaci di te!</h3>
+            <textarea name="descrizione" rows="8" cols="80"></textarea> <br><br>
+
+            <input type="checkbox" id="privacy" name="privacy" value="">
+            <label for="privacy">Accetto le <a href="www.accettazioneduso.it">Condizioni d'Uso</a></label><br><br>
+
+            <input type="submit" value="Crea Account">
+        </form>
+    </body>
+</html>
